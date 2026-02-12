@@ -60,7 +60,7 @@ export default function Projects() {
               }
               projectImage="/pscreenshots/ai-assistant.png"
               projectTitle="Virtual Assistant"
-              projectLink="https://virtual-techcare.netlify.app/"
+              projectLink="https://conversational-bot-aj8yxpnx36jjpywawvjz9p.streamlit.app/"
             />
           </div>
 
