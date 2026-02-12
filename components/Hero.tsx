@@ -42,9 +42,9 @@ export default function Hero() {
             transition={{ duration: 0.7 }}
             className="text-4xl md:text-6xl font-bold leading-tight"
           >
-            May be the,
+            Possibly the right,
             <br />
-            Developer you need
+            developer for your business
           </motion.h1>
 
           {/* Tabs */}
