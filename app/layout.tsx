@@ -18,7 +18,7 @@ const montserrat = Montserrat({
 
 export const metadata: Metadata = {
   title: "Raju Mannem",
-  description: "Full Stack Developer Digital Business",
+  description: "Full Stack Developer for Digital Business",
   icons: {
       icon: '/icon.ico',
       apple: '/men-with-globe.png',
