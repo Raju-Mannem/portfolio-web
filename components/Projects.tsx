@@ -115,9 +115,9 @@ export default function Projects() {
                 Icon={
                   <University className="w-8 h-8 text-[#4c1d95] bg-white rounded-full p-1 opacity-80" />
                 }
-                projectImage="/pscreenshots/em-cl-josaa.png"
-                projectTitle="Josaa Analyzer"
-                projectLink="https://em-cl-josaa.vercel.app/dashboard"
+                projectImage="/pscreenshots/meeting-assistant.png"
+                projectTitle="Meeting Action Planner"
+                projectLink="https://meeting-assistant-v0.vercel.app/"
               />
             </div>
           </div>
