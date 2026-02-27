@@ -18,7 +18,26 @@ const montserrat = Montserrat({
 
 export const metadata: Metadata = {
   title: "Raju Mannem",
-  description: "Shoot me an email at rajumannem71@gmail.com",
+  description: "Full Stack Developer Digital Business",
+  icons: {
+      icon: '/icon.ico',
+      apple: '/men-with-globe.png',
+    },
+    openGraph: {
+      type: "website",
+      siteName: "RajuMannem",
+      images: [
+        {
+          url: '/men-with-globe.png',
+          width: 1200,
+          height: 630,
+        },
+      ],
+    },
+    twitter: {
+      card: "summary_large_image",
+      images: ["/profile-avatar-child.gif"],
+    },
 };
 
 export default function RootLayout({

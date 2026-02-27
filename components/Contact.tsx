@@ -44,11 +44,11 @@ export default function Contact() {
           transition={{ duration: 0.6 }}
         >
           <h2 className="text-4xl font-bold tracking-tight mb-4">
-            We can connect on below platforms
+            That's it, Let's keep things simple
           </h2>
           <p className="text-gray-500 mb-12 max-w-md mx-auto">
-            I'm open to discussing any project ideas, questions, or just want to
-            say hi.
+            I'm happy to extend our discussion on below platforms <br/>
+            see you there.
           </p>
         </motion.div>
 
@@ -64,7 +64,7 @@ export default function Contact() {
               viewport={{ once: true }}
               transition={{ delay: index * 0.1 }}
               whileHover={{ y: -4 }}
-              className={`group flex items-center justify-between p-4 rounded-xl border border-gray-100 bg-gray-50/50 transition-all ${social.color}`}
+              className={`group flex items-center justify-between p-4 rounded-xl border border-dashed border-black/20 bg-gray-50 transition-all ${social.color}`}
             >
               <div className="flex items-center gap-4">
                 <span className="p-2 bg-white rounded-lg shadow-sm group-hover:shadow-md transition-shadow">

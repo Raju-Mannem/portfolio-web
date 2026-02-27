@@ -40,11 +40,11 @@ export default function Hero() {
             initial={{ opacity: 0, y: 40 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.7 }}
-            className="text-4xl md:text-6xl font-bold leading-tight"
+            className="text-2xl md:text-6xl font-bold leading-tight"
           >
-            Possibly the right,
+            Simplifying,
             <br />
-            developer for your business
+            technology for growth
           </motion.h1>
 
           {/* Tabs */}
@@ -72,9 +72,9 @@ export default function Hero() {
             transition={{ delay: 0.4 }}
             className="mt-12 text-surface-100/70 max-w-2xl mx-auto"
           >
-            Shoot me a mail if you'd like to see me work on.
+            Hardworking. Committed. Delivering results for Businesses.
             <br />
-            Let's sort it out!
+            Because results matter
           </motion.p>
           <div className="-z-10 absolute right-4 sm:right-10 top-120 sm:top-4 sm:top-30 perspective-[500px]">
             {/* CTA Pills */}
@@ -91,10 +91,10 @@ export default function Hero() {
               className="flex flex-col justify-center items-start gap-2 bg-gradient-to-br from-[#7c3aed] to-[#4c1d95] backdrop-blur-md rounded-lg py-4 shadow-2xl shadow-[#4c1d95]"
             >
               {[
-                "Web Development",
-                "Agentic Apps",
+                "Full Stack Apps",
+                "Intelligent Tools",
                 "Cloud Deployment",
-                "Workflow Orchestration",
+                "Business Workflows",
               ].map((item) => (
                 <div
                   key={item}

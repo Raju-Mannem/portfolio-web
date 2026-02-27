@@ -116,7 +116,7 @@ export default function Projects() {
                   <University className="w-8 h-8 text-[#4c1d95] bg-white rounded-full p-1 opacity-80" />
                 }
                 projectImage="/pscreenshots/meeting-assistant.png"
-                projectTitle="Meeting Action Planner"
+                projectTitle="Meeting Tracker"
                 projectLink="https://meeting-assistant-v0.vercel.app/"
               />
             </div>
@@ -124,25 +124,34 @@ export default function Projects() {
 
           {/* --- RIGHT COLUMN --- */}
           <div className="col-span-4 sm:col-span-2 grid grid rows-2 gap-2">
-            <Card className="bg-gradient-to-br from-[#7c3aed] to-[#4c1d95] opacity-95 text-center flex flex-col justify-center items-center">
-              <h3 className="text-3xl font-bold text-[#fafafa]">Reports</h3>
-              <p className="text-xs text-gray-400 mb-4">Management System</p>
+            <Card className="relative overflow-hidden bg-[#fafafa] opacity-95 text-center flex flex-col justify-center items-center">
+              <h3 className="text-3xl font-bold text-black">Sales</h3>
+              <p className="text-xs text-gray-400 mb-4">Report</p>
               <Link
-                href="https://jkcaiml.pythonanywhere.com/"
-                className="px-6 py-2 text-[#6d28d9] bg-[#fafafa] rounded-full text-xs font-semibold hover:scale-110 duration-200"
+                href="https://github.com/Raju-Mannem/zomato-analysis/blob/main/zomato-analysis.ipynb"
+                className="px-6 py-2 text-black border-1 border-dashed border-black rounded-full text-xs font-semibold hover:scale-110 duration-200"
               >
                 View
               </Link>
             </Card>
-            <Card className="bg-gradient-to-br from-[#7c3aed] to-[#4c1d95] opacity-95 text-center flex flex-col justify-center items-center">
-              <h3 className="text-3xl font-bold text-[#fafafa]">Production</h3>
-              <p className="text-xs text-gray-400 mb-4">Sales Analysis</p>
-              <Link
-                href="https://github.com/Raju-Mannem/zomato-analysis/blob/main/zomato-analysis.ipynb"
-                className="px-6 py-2 text-[#6d28d9] bg-[#fafafa] rounded-full text-xs font-semibold hover:scale-110 duration-200"
-              >
-                View
-              </Link>
+            <Card className="relative overflow-hidden bg-[#fafafa] opacity-95 text-center flex flex-col justify-center items-center">
+              <Image
+                  src="/pscreenshots/jkcaiml.png"
+                  alt="jkcaiml"
+                  fill
+                  className="absolute inset-0 object-cover opacity-10"
+              />
+              <div className="relative z-10 flex flex-col items-center">
+                <h3 className="text-3xl font-bold text-black">Shared</h3>
+                <p className="text-xs text-gray-500 mb-8">workspace</p>
+                <Link
+                  href="https://jkcaiml.pythonanywhere.com/"
+                  className="px-6 py-2 text-[#6d28d9] bg-[#fafafa] rounded-full text-xs font-semibold hover:scale-110 duration-200"
+                >
+                  View
+               </Link>
+            </div>
+            <div className="absolute w-full h-1/2 bottom-0 bg-[#6d28d9]" />
             </Card>
           </div>
           <div className="col-span-4 sm:col-span-2">
